@@ -1,0 +1,11 @@
+body {
+    overflow-x: hidden;
+    -webkit-tap-highlight-color: transparent;
+    -webkit-text-size-adjust: none;
+    -moz-user-select: none;
+    min-width: 320px;
+    max-width: 540px;
+    margin: 0 auto;
+    background: #fafafc;
+    font: 400 16px/1.5 PingFangSC-regular, Tahoma, "Lucida Grande", Verdana, "Microsoft Yahei", STXihei, hei
+}
