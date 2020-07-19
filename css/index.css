@@ -13,6 +13,7 @@ body {
 
 /* 固定定位是以屏幕为继承的宽度 所以固定定位要给一个宽度 */
 .search-index {
+    display: flex;
     position: fixed;
     top: 0;
     left: 50%;
@@ -22,4 +23,28 @@ body {
     max-width: 540px;
     height: 44px;
     background: pink;
+}
+
+/* search */
+
+.search {
+    flex: 1
+}
+
+.user {
+    width: 51px;
+    height: 44px;
+    background: rgb(129, 131, 141);
+    font-size: 12px;
+    text-align: center;
+}
+
+.user::before {
+    content: '';
+    display: block;
+    margin: 0 auto 3px;
+    width: 22px;
+    height: 22px;
+    background: url('../images/home-common-sprite2x@v7.15.png') 0 -37px;
+    background-size: 22px;
 }
