@@ -160,14 +160,38 @@ nav {
     background: pink;
 }
 
+.nav-common .nav-itmes:nth-child(1) a {
+    border: 0;
+}
+
+.nav-common .nav-itmes:nth-child(1) {
+    background: url('../images/hotel.png') no-repeat bottom center;
+    background-size: 121px auto;
+}
+
 .nav-common:nth-child(2) {
     margin: 3px 0;
 }
 
 .nav-itmes {
     flex: 1;
+    display: flex;
+    flex-direction: column;
+}
+
+.nav-itmes a:nth-child(1) {
+    border-bottom: 1px solid #fff
 }
 
 .nav-itmes:nth-child(-n+2) {
     border-right: 1px solid #fff
+}
+
+.nav-itmes a {
+    flex: 1;
+    font-size: 14px;
+    color: #fff;
+    text-align: center;
+    line-height: 33px;
+    text-shadow: 1px 1px rgb(185, 172, 172)
 }
