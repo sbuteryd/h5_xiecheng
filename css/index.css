@@ -6,13 +6,24 @@ body {
     min-width: 320px;
     max-width: 540px;
     margin: 0 auto;
-    background: #fafafc;
+    background: #d9d9df;
     font: 400 16px/1.5 PingFangSC-regular, Tahoma, "Lucida Grande", Verdana, "Microsoft Yahei", STXihei, hei;
     height: 3000px;
 }
 
 div {
     box-sizing: border-box;
+}
+
+ul {
+    margin: 0;
+    padding: 0;
+}
+
+ul li {
+    margin: 0;
+    padding: 0;
+    list-style: none
 }
 
 /* 固定定位是以屏幕为继承的宽度 所以固定定位要给一个宽度 */
@@ -83,4 +94,16 @@ div {
 
 .focus img {
     width: 100%;
+}
+
+/* local-nav */
+.local-nav {
+    display: flex;
+    height: 64px;
+    background: #fff;
+    border-radius: 8px;
+}
+
+.local-nav li {
+    flex: 1
 }
