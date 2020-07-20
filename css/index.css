@@ -119,12 +119,30 @@ ul li {
     align-items: center;
 }
 
-.local-nav a .local-nav-icon {
+.local-nav li a [class^='local-nav-icon'] {
     width: 40px;
     height: 40px;
     background: url('../upload/home-fivemain-sprite2x@v7.15.png') no-repeat 0 0;
     background-size: 40px auto;
 }
+
+.local-nav li a .local-nav-icon-icon2 {
+    background: url('../upload/home-fivemain-sprite2x@v7.15.png') no-repeat 0 -39px;
+    ;
+}
+
+.local-nav li a .local-nav-icon-icon3 {
+    background: url('../upload/home-fivemain-sprite2x@v7.15.png') no-repeat 0 -80px;
+}
+
+.local-nav li a .local-nav-icon-icon4 {
+    background: url('../upload/home-fivemain-sprite2x@v7.15.png') no-repeat 0 -120px;
+}
+
+.local-nav li a .local-nav-icon-icon5 {
+    background: url('../upload/home-fivemain-sprite2x@v7.15.png') no-repeat 0 -160;
+}
+
 
 .local-nav a .text {
     font-size: 12px;
