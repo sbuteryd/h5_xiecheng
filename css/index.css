@@ -207,3 +207,30 @@ nav {
 .nav-common:nth-child(3) {
     background: -webkit-linear-gradient(left, #36c2a7, #6cd55a)
 }
+
+/* subnav-enter */
+.subnav-enter {
+    display: flex;
+    flex-wrap: wrap;
+    background: #fff;
+}
+
+.subnav-enter li {
+    flex: 20%;
+}
+
+.subnav-enter li a {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+.subnav-enter .subnav-enter-icon {
+    display: block;
+    width: 28px;
+    height: 28px;
+    text-align: center;
+    line-height: 28px;
+    background: pink;
+}
