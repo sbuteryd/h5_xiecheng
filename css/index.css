@@ -157,7 +157,7 @@ nav {
 .nav-common {
     display: flex;
     height: 66.19px;
-    background: pink;
+    /* background: pink; */
 }
 
 .nav-common .nav-itmes:nth-child(1) a {
@@ -194,4 +194,16 @@ nav {
     text-align: center;
     line-height: 33px;
     text-shadow: 1px 1px rgb(185, 172, 172)
+}
+
+.nav-common:nth-child(1) {
+    background: -webkit-linear-gradient(left, #fb5b55, #fa964d)
+}
+
+.nav-common:nth-child(2) {
+    background: -webkit-linear-gradient(left, #4c92ee, #52baed)
+}
+
+.nav-common:nth-child(3) {
+    background: -webkit-linear-gradient(left, #36c2a7, #6cd55a)
 }
