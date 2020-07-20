@@ -75,3 +75,12 @@ div {
     background: url('../images/home-common-sprite2x@v7.15.png') 0 -37px no-repeat;
     background-size: 22px;
 }
+
+/* focus */
+.focus {
+    padding-top: 44px;
+}
+
+.focus img {
+    width: 100%;
+}
