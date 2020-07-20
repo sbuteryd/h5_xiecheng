@@ -41,7 +41,6 @@ ul li {
     min-width: 320px;
     max-width: 540px;
     height: 44px;
-    background: pink;
 }
 
 /* search */
@@ -76,7 +75,6 @@ ul li {
 .user {
     width: 51px;
     height: 44px;
-    background: rgb(129, 131, 141);
     font-size: 12px;
     text-align: center;
 }
@@ -147,4 +145,29 @@ ul li {
 .local-nav a .text {
     font-size: 12px;
     color: #000
+}
+
+/* nav */
+nav {
+    margin: 5px 4px 3px;
+    border-radius: 8px;
+    overflow: hidden;
+}
+
+.nav-common {
+    display: flex;
+    height: 66.19px;
+    background: pink;
+}
+
+.nav-common:nth-child(2) {
+    margin: 3px 0;
+}
+
+.nav-itmes {
+    flex: 1;
+}
+
+.nav-itmes:nth-child(-n+2) {
+    border-right: 1px solid #fff
 }
