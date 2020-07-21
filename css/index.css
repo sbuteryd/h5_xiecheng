@@ -29,7 +29,7 @@ body {
 .search-index {
     position: fixed;
     width: 100%;
-    max-width: 520px;
+    max-width: 540px;
     min-width: 320px;
     display: flex;
     border-top: 1px solid #ccc;
@@ -88,7 +88,6 @@ body {
 .focus {
     padding-top: 44px;
     height: 157px;
-    background: pink;
 }
 
 .focus img {
