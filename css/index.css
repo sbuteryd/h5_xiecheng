@@ -241,3 +241,26 @@ nav {
 .subnav-enter li a {
     font-size: 14px;
 }
+
+/* sale-box */
+.sale-hd {
+    position: relative;
+    height: 63px;
+    background: #fff
+}
+
+.sale-box .sale-hd h2 {
+    text-indent: -9999px;
+    overflow: hidden;
+}
+
+.sale-box .sale-hd h2::after {
+    content: '';
+    position: absolute;
+    top: 24px;
+    left: 12px;
+    width: 73px;
+    height: 16px;
+    background: url('../images/hot.png') no-repeat 0 -20px;
+    background-size: 79px auto;
+}
