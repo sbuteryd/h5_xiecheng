@@ -17,6 +17,7 @@ div {
 
 a {
     text-decoration: none;
+    color: #222;
 }
 
 ul {
@@ -212,6 +213,7 @@ nav {
 .subnav-enter {
     display: flex;
     flex-wrap: wrap;
+    margin-top: 5px;
     background: #fff;
 }
 
@@ -221,9 +223,9 @@ nav {
 
 .subnav-enter li a {
     display: flex;
+    padding: 10px 0 5px;
     flex-direction: column;
     align-items: center;
-
 }
 
 .subnav-enter .subnav-enter-icon {
@@ -232,5 +234,10 @@ nav {
     height: 28px;
     text-align: center;
     line-height: 28px;
-    background: pink;
+    background: url('../images/subnav-bg.png') no-repeat 0 0;
+    background-size: 30px auto;
+}
+
+.subnav-enter li a {
+    font-size: 14px;
 }
