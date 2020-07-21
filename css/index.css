@@ -1,3 +1,8 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
 body {
     overflow-x: hidden;
     -webkit-tap-highlight-color: transparent;
@@ -243,6 +248,10 @@ nav {
 }
 
 /* sale-box */
+.sale-box {
+    margin-top: 2px;
+}
+
 .sale-hd {
     position: relative;
     height: 63px;
@@ -263,4 +272,32 @@ nav {
     height: 16px;
     background: url('../images/hot.png') no-repeat 0 -20px;
     background-size: 79px auto;
+}
+
+.more {
+    position: absolute;
+    top: 15px;
+    right: 0;
+    border-radius: 14px;
+    margin-right: 10px;
+    width: 114px;
+    height: 27px;
+    background: -webkit-repeating-linear-gradient(left, #FF506C, #FF6BC6);
+    text-align: center;
+    line-height: 27px;
+    font-size: 14px;
+    color: #fff
+}
+
+.more::after {
+    display: block;
+    content: '';
+    position: absolute;
+    top: 8px;
+    right: 8px;
+    border-top: 1px solid rgb(255, 255, 255);
+    border-right: 1px solid rgb(255, 255, 255);
+    transform: rotate(45deg);
+    width: 8px;
+    height: 8px;
 }
