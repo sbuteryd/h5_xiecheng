@@ -1,6 +1,7 @@
 * {
     margin: 0;
     padding: 0;
+    box-sizing: border-box;
 }
 
 body {
@@ -23,6 +24,10 @@ div {
 a {
     text-decoration: none;
     color: #222;
+}
+
+img {
+    vertical-align: bottom;
 }
 
 ul {
@@ -300,4 +305,23 @@ nav {
     transform: rotate(45deg);
     width: 8px;
     height: 8px;
+}
+
+/* sale-bd */
+
+.sale-bd .row {
+    display: flex;
+}
+
+.sale-bd .row a {
+    flex: 1;
+    border-right: 1px solid #ccc
+}
+
+.sale-bd .row a:nth-child(1) {
+    border-bottom: 1px solid #ccc
+}
+
+.sale-bd .row img {
+    width: 100%;
 }
