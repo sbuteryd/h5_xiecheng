@@ -231,12 +231,11 @@ nav .nav-items:nth-child(2) {
 /* 销售模块 */
 .sales-box {
     /* height: 44px; */
-    background: rgb(224, 205, 205)
+    background: #fff
 }
 
 .sales-hd {
-    height: 44px;
-    background: #ccc;
+    background: #fff;
 }
 
 .sales-hd h2 {
@@ -249,10 +248,30 @@ nav .nav-items:nth-child(2) {
     display: block;
     content: '';
     position: absolute;
-    left: 0;
-    top: 22px;
+    left: 8px;
+    top: 4px;
     width: 79px;
-    height: 50px;
-    background: url('../images/hot.png') no-repeat 0 -22px;
+    height: 22px;
+    background: url('../images/hot.png') no-repeat 0 -15px;
     background-size: 79px auto;
+}
+
+/* sales-bd */
+
+.row {
+    display: flex;
+}
+
+.row a {
+    flex: 1;
+    border-bottom: 1px solid #ccc;
+}
+
+.row a:nth-child(1) {
+
+    border-right: 1px solid #ccc;
+}
+
+.row img {
+    width: 100%;
 }
