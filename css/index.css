@@ -147,3 +147,56 @@ nav li a.nav-icon-5 {
     background: url('../images/localnav_bg.png') no-repeat 0 -128px;
     background-size: 32px auto;
 }
+
+/* hotel */
+.hotel {
+    margin: 0 4px;
+}
+
+.row {
+    display: flex;
+    margin-bottom: 3px;
+    height: 88px;
+    background: -webkit-linear-gradient(left, #fb5b55, #fa984d)
+}
+
+.row:nth-child(2) {
+    background: -webkit-linear-gradient(left, #4b90ee, #53bbed)
+}
+
+.row:nth-child(3) {
+    background: -webkit-linear-gradient(left, #36c2a8, #53bbee)
+}
+
+.column {
+    flex: 1;
+}
+
+.column {
+    display: flex;
+    flex-direction: column;
+}
+
+.column a {
+    flex: 1;
+    text-align: center;
+    line-height: 44px;
+    color: #fff;
+    text-shadow: 1px 1px rgba(0, 0, 0, .3);
+
+}
+
+.row .column:nth-child(2) {
+    border: 1px solid #fff;
+    border-bottom: none;
+    border-top: none;
+}
+
+.row .column:nth-child(n+2) a:first-child {
+    border-bottom: 1px solid #fff
+}
+
+.row .column:first-child {
+    background: url('../images/hotel.png') no-repeat center bottom;
+    background-size: 131px auto;
+}
