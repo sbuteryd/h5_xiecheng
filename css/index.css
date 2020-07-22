@@ -4,6 +4,15 @@
     box-sizing: border-box;
 }
 
+li {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+    color: #222
+}
+
 body {
     max-width: 540px;
     min-width: 320px;
@@ -84,4 +93,57 @@ body {
 
 .focus img {
     width: 100%;
+}
+
+/* 导航 */
+nav {
+    border-radius: 4px;
+    height: 64px;
+    background: #fff;
+    margin: 0 4px;
+}
+
+nav ul {
+    display: flex;
+    padding-top: 5px;
+}
+
+nav ul li {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+nav ul li a {
+    font-size: 12px;
+}
+
+nav li a[class^='nav-icon'] {
+    content: '';
+    display: block;
+    width: 32px;
+    height: 32px;
+    background: url('../images/localnav_bg.png') no-repeat;
+    background-size: 32px auto;
+}
+
+nav li a.nav-icon-2 {
+    background: url('../images/localnav_bg.png') no-repeat 0 -32px;
+    background-size: 32px auto;
+}
+
+nav li a.nav-icon-3 {
+    background: url('../images/localnav_bg.png') no-repeat 0 -64px;
+    background-size: 32px auto;
+}
+
+nav li a.nav-icon-4 {
+    background: url('../images/localnav_bg.png') no-repeat 0 -96px;
+    background-size: 32px auto;
+}
+
+nav li a.nav-icon-5 {
+    background: url('../images/localnav_bg.png') no-repeat 0 -128px;
+    background-size: 32px auto;
 }
