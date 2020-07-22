@@ -228,3 +228,33 @@ nav li a.nav-icon-5 {
     flex-direction: column;
     align-items: center;
 }
+
+/* sales box */
+.sale-box {
+    background: #fff;
+    border-bottom: 1px solid transparent;
+}
+
+.sale-hd {
+    margin-top: 10px;
+    height: 44px;
+    background: pink;
+}
+
+.sale-hd h2 {}
+
+.sale-bd li {
+    display: flex
+}
+
+.sale-bd li:nth-child(n-2) a {
+    border-bottom: 1px solid #ccc;
+}
+
+.sale-bd li a:first-child {
+    border-right: 1px solid #ccc;
+}
+
+.sale-bd img {
+    width: 100%;
+}
