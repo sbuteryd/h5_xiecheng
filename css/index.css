@@ -231,6 +231,7 @@ nav .nav-items:nth-child(2) {
 /* 销售模块 */
 .sales-box {
     /* height: 44px; */
+    border-top: 1px solid #bbb;
     background: #fff
 }
 
@@ -257,7 +258,35 @@ nav .nav-items:nth-child(2) {
 }
 
 /* sales-bd */
+.sales-hd {
+    position: relative;
+    height: 44px;
+    border-bottom: 1px solid #ccc;
+}
 
+.more {
+    position: absolute;
+    top: 0;
+    right: 7px;
+    border-radius: 12px;
+    padding: 4px 13px 3px 10px;
+    background: -webkit-repeating-linear-gradient(left, #ff506d, #ff69bf);
+    color: #fff;
+}
+
+.more::after {
+    content: '';
+    position: absolute;
+    top: 11px;
+    right: 5px;
+    border-top: 1px solid #fff;
+    border-right: 1px solid #fff;
+    width: 8px;
+    height: 8px;
+    transform: rotate(45deg)
+}
+
+/* 销售模块 */
 .row {
     display: flex;
 }
