@@ -227,3 +227,32 @@ nav .nav-items:nth-child(2) {
     flex-direction: column;
     align-items: center;
 }
+
+/* 销售模块 */
+.sales-box {
+    /* height: 44px; */
+    background: rgb(224, 205, 205)
+}
+
+.sales-hd {
+    height: 44px;
+    background: #ccc;
+}
+
+.sales-hd h2 {
+    position: relative;
+    text-indent: -9999px;
+    overflow: hidden;
+}
+
+.sales-hd h2::before {
+    display: block;
+    content: '';
+    position: absolute;
+    left: 0;
+    top: 22px;
+    width: 79px;
+    height: 50px;
+    background: url('../images/hot.png') no-repeat 0 -22px;
+    background-size: 79px auto;
+}
