@@ -76,3 +76,12 @@ body {
     background: url('../images/sprite.png') no-repeat -58px -194px;
     background-size: 104px auto;
 }
+
+/* 焦点图 */
+.focus {
+    padding-top: 44px;
+}
+
+.focus img {
+    width: 100%;
+}
